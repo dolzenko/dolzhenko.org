@@ -2,7 +2,7 @@
 lock '3.1.0'
 
 set :application, 'dolzhenko.org'
-set :repo_url, 'https://github.com/dolzenko/dolzhenko.org .git'
+set :repo_url, 'https://github.com/dolzenko/dolzhenko.org.git'
 
 set :deploy_to, "$HOME/#{fetch(:application)}"
 
